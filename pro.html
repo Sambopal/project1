@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+  <meta charset="UTF-8">
+  
+  <h1 Style="color:black">Please Put Your Data Here</h1>
+  
+  <script language="JavaScript">
+    function showInput() {
+        
+					
+		document.getElementById('display').innerHTML ="<h2>Here is your inputed data</h2>  <b>First Name: </b>"+
+                    document.getElementById("user_input").value;
+					
+					
+					
+					
+		document.getElementById('displa').innerHTML = "<b>Last Name: </b>"+
+                    document.getElementById("user_inp").value;
+				
+					
+	     document.getElementById('displ').innerHTML = "<b>Middle Name: </b>"+
+                    document.getElementById("user_in").value;
+					
+					
+	    document.getElementById('dispa').innerHTML = "<b>Address: </b>"+
+                    document.getElementById("user_ia").value;
+					
+		document.getElementById('dispb').innerHTML = "<b>Country: </b>"+
+                    document.getElementById("user_ib").value;
+				
+		document.getElementById('dispc').innerHTML = "<b>State: </b>"+
+                    document.getElementById("user_ic").value;
+					
+		document.getElementById('dispd').innerHTML = "<b>Zipcode: </b>"+
+                    document.getElementById("user_id").value;
+				
+					
+		document.getElementById('dis').innerHTML = "<b>Email: </b>"+
+                    document.getElementById("user_").value;
+				
+					
+		document.getElementById('di').innerHTML = "<b>Phone Number: </b>"+
+                    document.getElementById("user").value;
+					
+					
+		document.getElementById('d').innerHTML = "<b>Height: </b>"+
+                    document.getElementById("use").value;
+					
+					
+		document.getElementById('displayer').innerHTML = "<b>Weight: </b>"+
+                    document.getElementById("us").value;
+					
+    }
+  </script>
+  <link rel="stylesheet" href="styl.css">
+
+  </head>
+<body>
+
+  <form  action="jy.html" method="post" >
+    <label>First Name:</label>
+    <input type="text" name="message" id="user_input">
+	<p></p>
+	<label>Last Name:</label>
+	<input type="text" name="message" id="user_inp">
+	<p></p>
+	<label>Middle Name:</label>
+	<input type="text" name="message" id="user_in">
+	<p></p>
+	<label>Address:</label>
+	<input type="text" name="message" id="user_ia">
+	<label>Country:</label>
+	<select type ="text" id="user_ib">
+	<option value="India">India</option>
+   <option value="">Albania</option>
+   <option value="United States of America">us</option>
+   <option value="United Kingdom">uk</option>
+   </select>
+	
+	<label>State:</label>
+	<input type="text" name="message" id="user_ic">
+	<label>Zipcode:</label>
+	<input type="text" name="message" id="user_id">
+	<p></p>
+	<label>Email:</label>
+	<input   type="email" required name="message" id="user_">
+	
+	<label>Phone Number:</label>
+	<input  type="tel" required name="message" id="user">
+	<p></p>
+	<label>Height:</label>
+	<input type="text" name="message" id="use">
+	
+	<label>Weight:</label>
+	<input type="text" name="message" id="us">
+	<p></p>
+	<label> To submit your data without display it</label>
+	<button type="submit" onclick="showInput(this)">click me</button>
+	
+  </form>
+  <label>To display the inputed data</label>
+  <button type="button"  onclick="showInput(this)">check</button>
+
+ 
+  <div style="padding-top:80px; border-bottom-style:solid">
+  
+  <div id='display'></div>
+  <div id='displa'></div>
+  <div id='displ'></div>
+  <div>
+  <div id='dispa'></div>
+  <div style="float:left; width:300px" id='dispb'></div>
+  <div style="float:left; width:300px" id='dispc'></div>
+  <div style="float:left; width:300px" id='dispd'></div>
+  </div>
+  <div style="float:left; width:300px" id='dis'></div>
+  <div id='di'></div>
+  <div>  
+  <div style="float:left; width:300px" id='d'></div>
+  <div  id='displayer'></div>
+  </div>
+  </div>
+  
+  
+</body>
+</html>
